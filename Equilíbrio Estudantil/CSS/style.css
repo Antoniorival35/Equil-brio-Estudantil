@@ -1,10 +1,10 @@
 body {
-margin: 0;
-font-family: Arial, sans-serif;
-background-color: #f0f0f0; /* um cinza claro para o fundo */
-display: flex;
-flex-direction: column;
-min-height: 100vh;
+/*Reset na página*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+  box-sizing: border-box;
 }
 
 header{
@@ -77,4 +77,3 @@ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
     padding-bottom: 20x; /* Espaço entre a imagem e o texto */
 }
-
