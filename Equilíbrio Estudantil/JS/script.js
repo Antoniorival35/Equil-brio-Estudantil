@@ -8,7 +8,7 @@ document.addEventListener('DOMcontentLoaded', () => {
             event.preventDefault(); //Impede o comportamento padrão do Link (navegação)//
             const menuName =button.getAttribute('data-menu') //'Início'; //pagína//
              alert(`Você clicou em "${menuName.toUpperCase()}"`);
-             // Aqui você poderia adicionar ló
+             // Aqui você poderia adicionar ló 
 
             }
 
